@@ -10,26 +10,26 @@
 
 ## Main starting steps
 
-1. **Open** or **create** your target `folder` in *EXPLORER*
-2. **Enter** commdand `git init` while inside target `folder` (creating reposit)
+1. **Open** or **create** your target *folder* in *EXPLORER*
+2. **Enter** commdand `git init` while inside target *folder* (creating reposit)
 3. **Create** target file (-s)
 
 ## Main steps for creating versions
 
 1. Allways **save** all changes in file (-s) 
-2. Tracking files:
-    * **Enter** commdand `git add "FILE NAME"` to track one file (tracking file within reposit)   
-    * **Enter** commdand `git add .` to track all files in folder (tracking files within reposit)
+2. Tracking files within reposit:
+    * **Enter** commdand `git add "FILE NAME"` to track one file
+    * **Enter** commdand `git add .` to track all files in folder
 3. **Enter** commdand `git commit -m "YOUR VERSION COMMENT"` (save new version within reposit)
-4. As long as working files are the same `git commit -am "YOUR VERSION COMMENT"` can be used several times after **step 2**
+4. As long as working files are the same `git commit -am "YOUR VERSION COMMENT"` can be used several times after **steps 1-2**
 
 ## Other commands
 
-* `git log` - call list of last versions (before current)
-* `git reflog` - call list of all versions
+* `git log` - calls list of last versions (before current)
+* `git reflog` - calls list of all versions
 * `git status` - current info about changes within reposit
-* `git checkout "COMMIT NAME"` - upload target version from **reflog** list
-* `git checkout master` - upload last commited version
+* `git checkout "COMMIT NAME"` - upload target version from **log** or **reflog** list
+* `git checkout master` - upload master version
 * `git diff` - show difference between current uncommited version and master version (within saved files)
 * `git diff "COMMIT NAME 1" "COMMIT NAME 2"` - show difference between two specific versions
 
