@@ -26,7 +26,8 @@
 ## Other commands
 
 * `git log` - calls list of last versions (before current)
-* `git reflog` - calls list of all versions
+* `git log --graph` - call graphical list of last versions and branchs
+* `git reflog` - calls list of all versions/branches/checkouts
 * `git status` - current info about changes within reposit
 * `git checkout "NAME"` - upload target version/branch from **log**/**reflog**/**branch** list
 * `git checkout master` - upload master version/branch
@@ -46,5 +47,6 @@
 `git branch` - calls list of branches (* - current branch)
 `git branch "BRANCH NAME"` - creat new branch beside master
 `git branch -d "BRANCH NAME"` - delete branch
-`git merge "BRANCH NAME"` - insert branch into master
+`git merge "BRANCH NAME"` - insert branch version into current branch
 
+Add file `.gitignore` in main folder and make list of file to ignore via `git status` (don't forget to commit ignore list into master branch)
