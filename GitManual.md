@@ -28,12 +28,23 @@
 * `git log` - calls list of last versions (before current)
 * `git reflog` - calls list of all versions
 * `git status` - current info about changes within reposit
-* `git checkout "COMMIT NAME"` - upload target version from **log** or **reflog** list
-* `git checkout master` - upload master version
+* `git checkout "NAME"` - upload target version/branch from **log**/**reflog**/**branch** list
+* `git checkout master` - upload master version/branch
 * `git diff` - show difference between current uncommited version and master version (within saved files)
 * `git diff "COMMIT NAME 1" "COMMIT NAME 2"` - show difference between two specific versions
 
 ## Other terms
 
-* `Master` - last commited version
+* `Master` - last commited version within main branch
 * `Head` - current working version
+
+
+
+# NEW - lection 2
+
+`clear` - clean terminals text
+`git branch` - calls list of branches (* - current branch)
+`git branch "BRANCH NAME"` - creat new branch beside master
+`git branch -d "BRANCH NAME"` - delete branch
+`git merge "BRANCH NAME"` - insert branch into master
+
