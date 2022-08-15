@@ -49,7 +49,7 @@
 
 `git checkout -b BRANCH_NAME` - creat new branch and upload it
 
-`git branch -d BRANCH_NAME` - delete branch
+`git branch -d BRANCH_NAME` - delete some branchs
 
 `git merge BRANCH_NAME` - insert branch version into current branch
 
