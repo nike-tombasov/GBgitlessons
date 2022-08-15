@@ -71,7 +71,7 @@ Add file `.gitignore` in main folder and make list of file to ignore via `git st
 ## Creating and working with remote reposites
 1. **Create** *Github.com* account
 2. **Create** local reposite
-3. **Create** reposite on *github.com* and link it with local reposite
+3. **Create** reposite on *github.com* and **link** (instructions are within github.com) it with local reposite
 4. **Push** local reposite to *github.com*
 5. **Pull** reposite from *github.com* to local if remoted version was changed
 
