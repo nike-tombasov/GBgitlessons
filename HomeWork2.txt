@@ -9,3 +9,5 @@ Screenshots:
 Exact merge conflict must be here
 
 Place for conflict
+
+Remote changes on github.com
