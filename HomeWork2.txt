@@ -5,3 +5,5 @@ Screenshots:
 4) Delete some branchs
 
 **Solve https://learngitbranching.js.org/?locale=ru_RU
+
+Place for conflict
