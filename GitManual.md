@@ -62,11 +62,11 @@ Add file `.gitignore` in main folder and make list of file to ignore via `git st
 
 # NEW - lection 3 - GitHub.com
 
-`git clone https:\\LINK_ADDRES` - dublicate remote reposite to local
+`git clone https:\\LINK_ADDRES` - dublicate remote reposite to local machine
 
 `git pull` - download and merge all changes from remote reposite 
 
-`git push` - upload and merge all changeas from local to remote reposite (auth can be requested)
+`git push` - upload and merge all changeas from local machine to remote reposite (auth can be requested)
 
 ## Creating and working with remote reposites
 1. **Create** *Github.com* account
