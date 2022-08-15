@@ -1,0 +1,7 @@
+Screenshots:
+1) Create min 4 branchs 
+2) Create some conflict
+3) Solve merge conflict 
+4) Delete some branchs
+
+**Solve https://learngitbranching.js.org/?locale=ru_RU
